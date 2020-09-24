@@ -21,7 +21,7 @@ void push(int n){
     }
 }
 
-int pop(){
+int pop(void){
     if (top != -1) {
         return stack[top--];
     } else {
@@ -30,7 +30,7 @@ int pop(){
     }
 }
 
-void print(){
+void print(void){
     for(int i=top; i>=0; i--){
         printf("N%d - %d\n", top-i+1, stack[i]);
     }

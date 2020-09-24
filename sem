@@ -9,8 +9,8 @@ struct stack {
   int top;
 };
 
-static int stack[MAX];
-static int top = -1;
+int stack[MAX];
+int top = -1;
 
 
 void push(int n){
